@@ -106,4 +106,19 @@
         app:srcCompat="@drawable/orn"
         tools:layout_editor_absoluteY="16dp" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="357dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="SUMMIT"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
